@@ -1,4 +1,8 @@
-# Kumo
+<h1 align="center">Kumo</h1>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/CoverImage.png" alt="Kumo - Four-legged walking robot" width="100%">
+</p>
 
 Kumo japanese for spider is a four-legged walking robot based on the open-source [Sesame Robot](https://github.com/dorianborian/sesame-robot) by Dorian Todd. It adds a machine learning model and text-to-speech so it can listen talk and react plus a custom OLED face (diff from the original new animations, Hack Club branding, and a redesigned 3D-printed body!!!
 
