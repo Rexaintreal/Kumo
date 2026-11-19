@@ -1,0 +1,21 @@
+﻿Item,Description,Quantity,Unit Price ($),Total Price ($),Unit Price (₹),Total Price (₹),URL
+MG90S Servo 180 Degree,Metal gear micro servo for hips and legs,8,3.2,25.6,300,2400,http://robu.in/product/mg90s-9g-servo-metal-gear/
+Lolin S2 Mini,ESP32-S2 microcontroller board,1,3.2,3.2,300,300,https://robosap.in/product/esp32-s2-mini-v1-0-0-module-development-board-with-psram/
+"0.96"" SSD1306 OLED",128x64 I2C OLED display for the face,1,2.6,2.6,240,240,https://robu.in/product/0-96-inch-ssd1306-white-oled-display-module/
+"Buck Converter LM2596 (adjustable, 3A)",Steps battery voltage down to 5.1V for servos and MCU; set output with a multimeter BEFORE connecting,1,0.57,0.57,53,53,https://quartzcomponents.com/products/lm2596-buck-converter-power-supply-module
+KCD1 Rocker Switch,Panel mount 2 pin power switch,1,0.1,0.1,10,10,https://robu.in/product/1-month-warranty-585/
+22AWG Silicone Wire Kit,Power and ground bus lines,5,0.3,1.5,25,125,https://robu.in/product/high-quality-ultra-flexible-22awg-silicone-wire-1000m-black/
+30AWG Silicone Wire Kit,Signal leads and dense harnessing,5,0.1,0.5,10,50,https://robu.in/product/high-quality-ultra-flexible-30awg-silicone-wire-1000-m-black/
+Heat Shrink Assortment,Insulate OLED and switch and battery joints,3,0.1,0.3,10,30,https://robocraze.com/products/2-5mm-heat-shrink-tube-black-1-meter?variant=43271505608928&country=IN&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_campaign=BL+%7C+Pmax+%7C+Feed+Only+%7C+RoboCraze+%7C+Electronic+Components+%7C+31%2F05&utm_source=googleads&utm_medium=ppc&utm_campaign=21337209786&utm_content=_&utm_term=&campaignid=21337209786&adgroupid=&campaign=21337209786&gad_source=1&gad_campaignid=21343423652&gbraid=0AAAAADgHQvb1NjwW3Cog7cUMjcaOhmxya
+Nylon Cable Zip Ties 100mm (pack of 100),Wire bundling inside the frame (replaces the 350mm pack),1,0.32,0.32,30,30,https://robu.in/product/nylon-cable-zip-ties-100mm-100pcs-bag-1-bag/
+Protoboard 5x7cm,Hosts the header matrix and power rails,3,0.3,0.9,30,90,https://robu.in/product/5-x-7-cm-universal-pcb-prototype-board-single-sided-2-54mm-hole-pitch/
+Male Pin Header Strip,Cut into 8x 3-pin servo headers,3,0.1,0.3,10,30,https://robu.in/product/2-54mm-1x40-pin-male-single-row-straight-short-header-strip-pack-of-3/
+26AWG Silicone Wire - Red (per metre),Red power leads (short or low-current runs),5,0.18,0.91,17,85,https://robu.in/product/high-quality-ultra-flexible-26awg-silicone-wire-1000m-red/
+2x8 16-pin Male Double Row Header (Sharvi),Added at your request,1,0.09,0.09,8.15,8.15,https://sharvielectronics.com/product/2x8-16pin-male-double-row-straight-berg-strip-connector-11mm-height-2-54mm-pitch/
+14500 7.4V 800mAh Li-ion Battery,Recommended wireless pack; designed to fit the internal frame,1,,,,,
+7.4V Lithium Battery Charger,Matching charger for the 14500 battery (XH2.54 connector),1,,,,,
+XH2.54 3-pin Female Terminal Wire 20cm,Battery pigtail (V3 requires soldering),1,0.28,0.28,26,26,https://www.flyrobo.in/xh2.54-3-pin-female-terminal-wire-connector-20cm
+M2 x 5 mm Screws (SS304 Phillips pan head),"Plastic joints, OLED retention, motor mounts, covers",40,0.02,0.86,2,80,https://onlyscrews.in/products/m2-x-6mm-phillips-pan-head-ss-304-screw
+M2.5 x 5 mm Machine Screws (black oxide),Servo horn attachment to servo shafts only,10,0.05,0.47,4.4,44,https://onlyscrews.in/products/m2-5-x-5mm-phillips-round-head-laptop-screw
+3D Printed Parts (set),"11 parts: internal frame, top cover, bottom cover, joints R1-R4 and L1-L4. TBD: source/print decision",1,,,,,
+,,,Grand Total,38.5,,3601.15,
