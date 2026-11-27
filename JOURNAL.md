@@ -3,8 +3,31 @@ title: "Kumo"
 github: "https://github.com/Rexaintreal/Kumo"
 description: "A smart, expressive quadruped walking robot with ML and TTS, based on Sesame."
 created_at: "2026-11-19"
-total_time: "1.8h"
+total_time: "2.5h"
 ---
+
+## November 27, 2026: Finishing the BOM and fixing the power supply
+
+was really busy with practicals finally got time for kumo, The BOM was unfinished last time because the power supply was not sorted T_T so thats what i fixed today in the [BOM](https://github.com/Rexaintreal/Kumo/blob/main/BOM.csv) is done now except the 3D prints whihc will be added later
+
+![Battery listing](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/battery.png)
+
+### Power supply
+
+sooo i picked a 7.4V 1000mAh 2S 145 00 pack with a Charging cable included so no separate charger needed ig its a bit weird as the listing has no reviews and 1000mAh seems too much for 14500 cells so i will check the real specs when i receive it The LM2596 buck stays and will be set to 5.1V with a multimeter before anything gets connected just to be safe :pray
+
+### Connector
+
+intiially i thought of an XH2.54 3 pin pigtail but the battery comes with a 4 pin SM plug so that would not even fit i swapped it for a JST SM 4 pin connector with wire Its only rated for about 1A so the main power path will use the thicker 22AWG silicone wire!
+
+- Final total is about $44.82 or ₹4194
+
+### Not in v1
+
+alsoooo i am skipping the mic and speaker sadly :( for v1 so ML and TTS will come later and 3d printing will be done by a print on demand service in my city so i will get a quote once the CAD is ready!!!
+
+**Total time spent: 0.5h**
+
 
 ## November 19, 2026: Project setup and file structure
 
