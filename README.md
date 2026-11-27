@@ -6,7 +6,7 @@
 
 Kumo japanese for spider is a four-legged walking robot based on the open-source [Sesame Robot](https://github.com/dorianborian/sesame-robot) by Dorian Todd. It adds a machine learning model and text-to-speech so it can listen talk and react plus a custom OLED face (diff from the original new animations, Hack Club branding, and a redesigned 3D-printed body!!!
 
-> **Situation rn:** Doing the BOM, wiring diagram, and CAD.
+> **Situation rn:** Doing the wiring diagram, and CAD.
 
 ## Journal
 
