@@ -1,4 +1,4 @@
-    ---
+---
 title: "Kumo"
 github: "https://github.com/Rexaintreal/Kumo"
 description: "A smart, expressive quadruped walking robot with ML and TTS, based on Sesame."
