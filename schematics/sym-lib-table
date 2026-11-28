@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "kumo") (type "KiCad") (uri "${KIPRJMOD}/kumo.kicad_sym") (options "") (descr ""))
+)

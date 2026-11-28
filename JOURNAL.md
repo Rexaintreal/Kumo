@@ -1,10 +1,43 @@
----
+    ---
 title: "Kumo"
 github: "https://github.com/Rexaintreal/Kumo"
 description: "A smart, expressive quadruped walking robot with ML and TTS, based on Sesame."
 created_at: "2026-11-19"
-total_time: "2.5h"
+total_time: "4.0h"
 ---
+
+## November 28, 2026: Starting the schematic and making custom symbols
+
+Started the schematic today in KiCad :D! as kumo is hand wired on a protoboard/breadboard i only need a schematic no pcbs heh i started setting up the project in the schematics folder and filled in the title block with a credit to Sesame since the whole thing is based on it
+
+![Title block](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema1.png)
+
+### Librariess :cryin
+
+It took me a while here kicad is a bit weird with libraries it constantly complained about how kumo as a library already exists and the symbol editor was not allowing me to create any symbols after some help with ai turns out it was in the global library and was set to a file location which never existed i deleted that and saved ti to project library!
+
+
+### ESP32-S2 Mini symbol
+
+I failed to find any symbol for it so i made my own with only the pins i actually use 10 GPIO pins on the left. IO1 2 4 6 8 10 13 14 are the servos same pins as the Sesame firmware uses for the S2 Mini so i can reuse their code without editing pins IO33 and IO35 are SDA and SCL for the OLED. 5V GND and 3V3 on the right
+
+![S2 Mini symbol](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema2.png)
+
+### LM2596 module
+
+The buck converter is a ready made module so there is nothing inside to draw. Just a box with IN+ IN- OUT+ OUT-. Set all the pins to passive so KiCad does not complain about power pins later
+
+![LM2596 symbol](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema3.png)
+
+### Battery connector
+
+JST SM 4 pin with BAT+ and BAT- and two unconnected pins. This pinout is a guess for now. I will check it with a multimeter when the battery arrives and fix the symbol if its wrong
+
+![Battery connector symbol](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema4.png)
+
+
+**Total time spent: 1.5h**
+
 
 ## November 27, 2026: Finishing the BOM and fixing the power supply
 
