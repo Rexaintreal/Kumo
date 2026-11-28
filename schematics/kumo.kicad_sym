@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at 0 0 0)
+			(at 0 7.112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "JST_SM_4P"
-			(at 0 0 0)
+			(at 0 -9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -157,7 +157,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 9.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -167,7 +167,7 @@
 			)
 		)
 		(property "Value" "LM2596_Module"
-			(at 0 0 0)
+			(at 0.254 -9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -305,7 +305,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -315,7 +315,7 @@
 			)
 		)
 		(property "Value" "LOLIN_S2_Mini"
-			(at 0 0 0)
+			(at 0.254 -17.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -598,6 +598,118 @@
 					)
 				)
 				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SW_SPST"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 0.254 -4.318 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_SPST_0_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SW_SPST_1_1"
+			(pin passive line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)

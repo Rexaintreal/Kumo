@@ -3,7 +3,35 @@ title: "Kumo"
 github: "https://github.com/Rexaintreal/Kumo"
 description: "A smart, expressive quadruped walking robot with ML and TTS, based on Sesame."
 created_at: "2026-11-19"
-total_time: "4.0h"
+total_time: "4.3h"
+---
+
+## November 28, 2026: Wiring the power section
+
+After lunch break i continued working at 3 pm the custom symbols are ready so I moved on to putting the power section together yay :D
+
+### WHERE IS SW_SPST??!
+
+I couldn't find the standard `SW_SPST` symbol because the Switch library wasn't loading in this project (istg idk whats wrong with my kicad im new sowwy) soooooo instead of spending more time debugging the library setup i made a simple SPST switch symbol in my own `kumo` library.
+It's just a box with two passive pins. I also had to move the reference and value labels because they were overlapping at first.
+
+![Custom switch symbol](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema5.png)
+
+### Putting things for power together
+
+thenn i added the battery connector, switch and LM2596 buck converter to the schematic while keeping some space between them so there would be space for the wires
+
+![Power section components](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema6.png)
+
+### Wiring
+
+i started with the battery input to the switch and then to the buck converter the battery negative line also needs to be connected to the buck converter's IN- pin without accidentally connecting to the switch
+the battery connector pinout is still not final. I'll verify it with a multimeter once the battery arrives
+
+![Power section schematic](https://raw.githubusercontent.com/Rexaintreal/Kumo/main/assets/schema7.png)
+ 
+**Time spent this session:** 0.3h
+
 ---
 
 ## November 28, 2026: Starting the schematic and making custom symbols
